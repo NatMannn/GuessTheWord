@@ -54,30 +54,30 @@ class GameViewModel : ViewModel() {
 
     /** Methods for buttons presses **/
 
-//    fun onSkip() {
-//        if (!wordList.isEmpty()) {
-//            score--
-//        }
-//        nextWord()
-//    }
-//
-//    fun onCorrect() {
-//        if (!wordList.isEmpty()) {
-//            score++
-//        }
-//        nextWord()
-//    }
+    fun onSkip() {
+        if (!wordList.isEmpty()) {
+            score--
+        }
+        nextWord()
+    }
+
+    fun onCorrect() {
+        if (!wordList.isEmpty()) {
+            score++
+        }
+        nextWord()
+    }
 
     /**
      * Moves to the next word in the list
      */
-//    fun nextWord() {
-//        if (!wordList.isEmpty()) {
-//            //Select and remove a word from the list
-//            word = wordList.removeAt(0)
-//        }
-//
-//    }
+    fun nextWord() {
+        if (!wordList.isEmpty()) {
+            //Select and remove a word from the list
+            word = wordList.removeAt(0)
+        }
+
+    }
 
 
 }
